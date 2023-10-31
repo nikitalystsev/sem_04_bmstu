@@ -1,8 +1,0 @@
-/home/nikita/oop_4_sem/my_oop/lab_01/CMakeFiles/3d_viewer_lab1.dir
-/home/nikita/oop_4_sem/my_oop/lab_01/CMakeFiles/edit_cache.dir
-/home/nikita/oop_4_sem/my_oop/lab_01/CMakeFiles/rebuild_cache.dir
-/home/nikita/oop_4_sem/my_oop/lab_01/CMakeFiles/list_install_components.dir
-/home/nikita/oop_4_sem/my_oop/lab_01/CMakeFiles/install.dir
-/home/nikita/oop_4_sem/my_oop/lab_01/CMakeFiles/install/local.dir
-/home/nikita/oop_4_sem/my_oop/lab_01/CMakeFiles/install/strip.dir
-/home/nikita/oop_4_sem/my_oop/lab_01/CMakeFiles/3d_viewer_lab1_autogen.dir

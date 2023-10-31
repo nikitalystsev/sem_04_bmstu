@@ -6,29 +6,20 @@
 #include "error.h"
 #include "transform.h"
 
-enum actions
-{
-    DOWNLOAD,
-    DRAW,
-    MOVE,
-    ROTATE,
-    SCALE,
-    QUIT
-};
+enum actions { DOWNLOAD, DRAW, MOVE, ROTATE, SCALE, QUIT };
 
 typedef enum actions actions_t;
 typedef struct request_t request_t;
 
-struct request_t
-{
-    const char *filename;
-    draw_t view;
-    actions_t action;
-    move_t move;
-    rotate_t rotate;
-    scale_t scale;
+struct request_t {
+  const char *filename;
+  draw_t view;
+  actions_t action;
+  move_t move;
+  rotate_t rotate;
+  scale_t scale;
 };
 
-error_t manager_actions(request_t *request);
+myerror_t manager_actions(request_t *request);
 
 #endif // ACTION_H
