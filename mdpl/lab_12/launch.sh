@@ -1,0 +1,2 @@
+qemu-system-aarch64 -machine virt -cpu cortex-a72 -nographic -smp 1 -m 512 -kernel qemu_files/vmlinuz-run -initrd qemu_files/initrd-run.img -append "root=/dev/sda2 console=ttyAMA0" -global virtio-blk-device.scsi=off -device virtio-scsi-device,id=scsi -drive file=qemu_files/debian11-arm64.img,id=rootimg,cache=unsafe,if=none -device scsi-hd,drive=rootimg -virtfs local,path=/home/nikita/mdpl_4_sem/my_mdpl/lab12,mount_tag=host0,security_model=none,id=host0
+
